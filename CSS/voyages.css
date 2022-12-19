@@ -1,0 +1,123 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: 'Beauty';
+	src: url(../FONTS/BeautyDemo.ttf), url(../FONTS/BeautyDemo.otf);
+}
+.texteheader {
+	font-family: 'Beauty';
+}
+
+main {
+	z-index: 2;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+header {
+	display: flex;
+	opacity: 0.8;
+	width: 100vw;
+	height: 250px;
+}
+.hover1 p {
+	font-size: 60px;
+	margin-top: 0;
+}
+.hover2 p {
+	font-size: 60px;
+	margin-top: 0;
+}
+.flexdirection {
+	display: flex;
+	justify-content: space-evenly;
+}
+.hover1{
+	display: flex;
+	margin-left: 450px;
+	margin-right: 100px;
+	padding-top: 70px;
+	color: #01b6ff;
+	z-index: 3;
+}
+.hover2{
+	display: flex;
+	padding-top: 70px;
+	color: #01b6ff;
+	z-index: 3;
+}
+#icon1 {
+	margin-right: 25px;
+	font-size: 50px;
+}
+.continentnavigation {
+	display: none;
+}
+.guidenavigation {
+	display: none;
+}
+.hover1:hover .continentnavigation {
+	display: inline-block;
+	position: absolute;
+	top: 190px;
+	color: #ff936a;
+	z-index: 99999;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+.hover2:hover .guidenavigation {
+	display: inline-block;
+	position: absolute;
+	top: 190px;
+	color: #ff936a;
+	z-index: 99999;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+.logo {
+	width: autow;
+	height: 180px;
+	margin-right: 100px;
+	padding-top: 10px;
+}
+
+.hover2:hover #icon1 {
+	color: #ff936a;
+
+}
+.hover2:hover p {
+	color: #ff936a;
+
+}
+.hover1:hover #icon1 {
+	color: #ff936a;
+
+}
+.hover1:hover p {
+	color: #ff936a;
+
+}
+.guidenavigation li {
+	font-size: 46px;
+	list-style: none;
+}
+.continentnavigation li {
+	font-size: 46px;
+	list-style: none;
+}
+li {
+	font-family: 'Ubuntu';
+}
+
+footer {
+	background-color: #01b6ff;
+	height: 50px;
+	width: 100vw;
+	margin-top: 8px;
+}
+.footertxt {
+	font-size: 50px;
+	padding-left: 100px;
+	font-family: fantasy;
+}
